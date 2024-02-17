@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<!-- File name and ocument purpose --> 
+<html lang = "en">   
+    <head>     
+        <title> A title for the document </title>
+        <meta charset = "utf-8" />     
+        <!--include external resources here like adsense, javascript, styles-->
+    </head>  
+    <center> 
+    <body>   
+        <h1><B>APPLICATION FORM </B></h1><BR><BR>
+        <form id="myForm" action="">
+            <label for="username">
+                Username: &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="username" name="username" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="password">
+                Password: &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" id="password" name="password" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="email">
+                Email: &nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="email" name="email" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="telephone">
+                Telephone:&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" id="telephone" name="telephone" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="page">
+                Website:&nbsp;&nbsp;&nbsp;&nbsp;<input type="url" id="page" name="homepage" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="house">
+                House: &nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="house" name="house" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="date">
+                Current date: &nbsp;&nbsp;&nbsp;&nbsp;<input type="date" id="date" name="date" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="month">
+                Last month:&nbsp;&nbsp;&nbsp;&nbsp; <input type="month" id="month" name="month" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="week">
+                Current Week: &nbsp;&nbsp;&nbsp;&nbsp;<input type="week" id="week" name="week" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="color">
+                Favourite Color:&nbsp;&nbsp;&nbsp;&nbsp;<input type="color" id="color" name="color" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="file">
+                Photo: &nbsp;&nbsp;&nbsp;&nbsp;<input type="file" accept="image/*" id="file" name="photo" />    
+            </label>
+            <br/>
+            <br/>
+            <label for="laptop">
+                Laptop&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" id="laptop" name="laptop" value="Laptop" />    
+            </label>
+            <label for="mobile">
+                Mobile &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="mobile" name="mobile" value='Mobile' />    
+            </label>
+            <br/>
+            <br/>
+            <label for="male">
+                Male &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="male" name="gender" value="Male" />    
+            </label>
+            <label for="female">
+                Female &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="female" name="gender" value="Female" />    
+            </label>
+            <br/>
+            <br/>
+            <input type="reset" id="reset" value="Reset" />
+            <input type="button" id="button" onclick="console.log(document.getElementById('myForm').elements[0])" value="Alert" />
+            <input type="submit" id="submit" value="submit" />    
+        </form>
+    </center>
+    </body> 
+</html>
