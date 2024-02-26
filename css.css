@@ -1,11 +1,11 @@
 .border {
-    border: 1px solid red;
+    border: 3px solid red;
 }
 .borderBlue {
-    border: 1px solid blue;
+    border: 4px solid blue;
 }
 .row1, .row2, .row3 {
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 .marginRight {
     margin-right: 10px;
@@ -21,4 +21,29 @@
 }
 .margin {
     margin: 10px 20px;
+}
+.border {
+    border: 1px solid red;
+}
+.borderBlue {
+    border: 1px solid blue;
+}
+.row1, .row2, .row3 {
+    padding-bottom: 200px;
+}
+.paddingRight {
+    padding-right: 100px;
+    margin-right: 100px;
+}
+.paddingLeft {
+    padding-left: 20px;
+}
+.paddingTop {
+    padding-top: 30px;
+}
+.paddingBottom {
+    padding-Bottom: 40px;
+}
+.padding {
+    padding: 10px 20px;
 }
