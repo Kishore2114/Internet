@@ -37,9 +37,9 @@
     padding: 1em;
     display: grid;
   
-    grid-template-areas: "one two two"
-    "one two two"
-    "one three three";
+    grid-template-areas: "one one two"
+    "one one two"
+    "three three three";
     gap: 1em;
 }
 .centerFlex {
