@@ -45,3 +45,40 @@
 .eightG {
     grid-area: eight;
 }
+.containerA {
+    height: 500px;
+    width: 75%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: grid;
+  
+    grid-template-areas: "one two two two two"
+    "one two two two two"
+    "three two two two two"
+    "three two two two two"
+    "three four four five five";
+    gap: 1em;
+}
+.centerFlexA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+}
+.oneA {
+    grid-area: one;
+}
+.twoA {
+    grid-area: two;
+}
+.threeA {
+    grid-area: three;
+}
+.fourA {
+    grid-area: four;
+}
+.fiveA {
+    grid-area: five;
+}
