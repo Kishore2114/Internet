@@ -1,0 +1,109 @@
+.container {
+    height: 500px;
+    width: 90%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+    padding: 0.5em;
+}
+.family {
+    font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.size {
+    font-size: 2em;
+    
+}
+.variant {
+    font-variant: small-caps;
+}
+.style {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.weight {
+    font-weight: 600;
+
+}
+.red {
+    color: rgb(159, 249, 4);
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+    
+.rgb {
+    color: rgb(5, 248, 223);
+    background-color: blueviolet;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+.rgba {
+    color: rgb(238, 4, 168);
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+.blue{
+    color: greenyellow;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5)), linear-gradient(135deg, rgba(150, 120, 0, 0.5), blue);
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+
+.yel{
+    color: rgb(159, 249, 4);
+    background: radial-gradient(red, green);
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+.blur {
+    box-shadow: 3px 2px 2px gray;
+    text-shadow: 3px 2px 2px gray;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+.blurSpread {
+    box-shadow: 3px 2px 2px 1px gray;
+    text-shadow: 3px 2px 2px gray;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+.multiple {
+    box-shadow: 5px 5px 3px gray, -5px -5px 3px red;
+    text-shadow: 5px 5px 3px gray, -5px -5px 3px red;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+.offset {
+    box-shadow: 3px 2px gray;
+    text-shadow: 3px 2px gray;
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+}
+
