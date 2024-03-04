@@ -1,0 +1,26 @@
+h1 { color: red; }
+h2.blue { color: blue; }
+.gray { color: gray; }
+#golden { color: goldenrod; }
+.container :nth-child(2n+1) { background: rgb(210, 255, 114); }
+h1 { color: red; }
+h1.blue { color: blue;}
+.red1 { color: red;}
+#red { color: red;}
+ul :nth-child(2n+1) 
+{ 
+    background: rgb(114, 255, 234);
+margin: 1em;
+color: rgb(157, 157, 157); 
+padding: 1em;   
+margin-top: 2em;
+}
+ul :nth-child(2n)
+{
+    background: rgb(168, 167, 167);
+    margin: 1em;
+color: rgb(14, 220, 243); 
+padding: 1em;   
+margin-top: 2em;
+    
+}
