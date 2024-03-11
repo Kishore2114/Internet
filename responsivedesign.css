@@ -1,0 +1,34 @@
+@media screen and (max-width: 700px) {
+    .container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5em;
+    }
+    .option{
+        border-radius: 20%;
+        font-size: 1.5em;
+        background: red;
+        color: white;
+        padding: auto;
+        
+    }
+}
+@media screen and (max-width: 400px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5em;
+    }
+    .option{
+        border-radius: 50%;
+         font-size: 2em;
+         background: blue;
+         color: white;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: auto;
+         
+    }
+}
