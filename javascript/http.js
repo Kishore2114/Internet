@@ -1,5 +1,5 @@
 let nameElement = document.querySelector('.name');
-let surnameElement = document.querySelector('.surname')
+let surnameElement = document.querySelector('.surname');
 
 const getMyName =async() => {
     let res = await fetch('http://127.0.01:3000/')
