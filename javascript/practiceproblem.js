@@ -280,16 +280,16 @@
 //     }
 //     pnum(5)
 // 6.
-//     let a = 0;
-//     let b = 1;
-//     let sum = 0;
-//     let endLimit = 5;
-//     while (true) {
-//         for (let i = 2; i <= endLimit; i++) {
-//             sum = sum + i;
-//             console.log(sum);
-//         }
-//     }
+    // let a = 0;
+    // let b = 1;
+    // let sum = 0;
+    // let endLimit = 5;
+    // while (true) {
+    //     for (let i = 2; i <= endLimit; i++) {
+    //         sum = sum + i;
+    //         console.log(sum);
+    //     }
+    // }
 // 7.
 //     function largeElement(arr) {
 //         if (arr.lenght == 0) {
